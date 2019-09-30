@@ -1,3 +1,3 @@
-project('vala-custom-vapi', ['vala', 'c'])
+project ('vala-custom-vapi', ['vala', 'c'])
 
-subdir('src')
+subdir ('src')
