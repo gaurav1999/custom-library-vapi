@@ -16,6 +16,14 @@ int triple_input(int input) {
 }
 ```
 
+There's a `src\cube.c` with funtion to cube an int
+
+```
+int cube_input(int input) {
+    return input * input * input;
+}
+```
+
 We call it from vala, tripling any valid input from first argument in command line
 
 ## Running
