@@ -8,11 +8,11 @@ Be able to link with projects that build libraries not intented to be installed 
 
 ## Example
 
-There's a `src/triple.c` with a function to triple an int
+There's a `src/double.c` with a function to double an int
 
 ```
-int triple_input(int input) {
-    return input * 3;
+int double_input(int input) {
+    return input * 2;
 }
 ```
 
@@ -24,15 +24,15 @@ int cube_input(int input) {
 }
 ```
 
-We call it from vala, tripling any valid input from first argument in command line
+We call it from vala, doubing any valid input from first argument in command line
 
 ## Running
 
 ```
 $ meson build
 $ ninja -C build
-$ ./build/src/triple 4
-4 * 3 = 12
+$ ./build/src/double 4
+4 * 2 = 08
 ```
 
 ## Info
