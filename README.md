@@ -34,6 +34,7 @@ int square_input(int input) {
 
 We call it from vala, doubing any valid input from first argument in command line
 We call it from vala, squaring any valid input from first argument in command line
+We call it from vala, cubing any valid input from first argument in command line
 
 ## Running
 
@@ -43,6 +44,7 @@ $ ninja -C build
 $ ./build/src/double 4
 4 * 2 = 08
 4 * 4 = 16
+4 * 4 * 4 = 64
 ```
 
 ## Info
