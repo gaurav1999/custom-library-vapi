@@ -24,7 +24,16 @@ int cube_input(int input) {
 }
 ```
 
+There's a `src/square.c` with a function to square an int
+
+```
+int square_input(int input) {
+    return input * input;
+}
+```
+
 We call it from vala, doubing any valid input from first argument in command line
+We call it from vala, squaring any valid input from first argument in command line
 
 ## Running
 
@@ -33,6 +42,7 @@ $ meson build
 $ ninja -C build
 $ ./build/src/double 4
 4 * 2 = 08
+4 * 4 = 16
 ```
 
 ## Info
